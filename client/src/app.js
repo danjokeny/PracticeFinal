@@ -1,5 +1,5 @@
 export class App {
   constructor() {
-    this.message = 'Hello World!';
-  }
-}
+    this.message = 'Hello Professor - This is Dannys Practice Final!'
+  };
+};
