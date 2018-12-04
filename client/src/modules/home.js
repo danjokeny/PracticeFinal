@@ -9,6 +9,6 @@ export class Home {
   }
 
   GetFoo(){
-	  this.router.navigate('FooTable');
+	  this.router.navigate('foos');
   }
 }

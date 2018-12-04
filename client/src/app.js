@@ -12,9 +12,9 @@ export class App {
         name: 'home'
       },
       {
-        route: ['footable'],
-        moduleId: './modules/footable',
-        name: 'footable'
+        route: ['foos'],
+        moduleId: './modules/foos',
+        name: 'foos'
       }
     ]);
   }
