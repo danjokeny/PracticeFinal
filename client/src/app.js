@@ -9,7 +9,12 @@ export class App {
       {
         route: ['', 'home'],
         moduleId: './modules/home',
-        name: 'Home'
+        name: 'home'
+      },
+      {
+        route: ['footable'],
+        moduleId: './modules/footable',
+        name: 'footable'
       }
     ]);
   }

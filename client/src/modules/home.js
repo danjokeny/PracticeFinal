@@ -1,5 +1,14 @@
+import {inject} from 'aurelia-framework';
+import {Router} from 'aurelia-router';
+
+@inject(Router)
 export class Home {
-	constructor(){
-		this.message = "Home";
-	}
+  constructor(router) {
+	this.router = router;
+          this.message = 'This is Dannys Home Page';
+  }
+
+  GetFoo(){
+	  this.router.navigate('FooTable');
+  }
 }
