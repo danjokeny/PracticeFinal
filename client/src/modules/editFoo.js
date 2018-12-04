@@ -1,5 +1,5 @@
 export class Home {
 	constructor(){
-		this.message = "FooTable";
+		this.message = "EditFoo";
 	}
 }
