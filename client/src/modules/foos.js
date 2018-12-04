@@ -8,7 +8,7 @@ export class Foos {
     constructor(router, foos) {
         this.router = router;
         this.foos = foos;
-        this.message = 'Foos';
+        this.message = 'Dannys Foos';
         this.showFooEditForm = false;
     }
 
